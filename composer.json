@@ -1,0 +1,22 @@
+{
+    "name": "ibibicloud/thinkphp-orm",
+    "keywords": ["orm", "database", "thinkphp", "thinkphp-orm"],
+    "description": "thinkphp-orm",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=8.0.0",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "ibibicloud/psr-3-log": "*",
+        "ibibicloud/psr-16-simple-cache": "*",
+        "ibibicloud/thinkphp-helper": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src"
+        },
+        "files": [
+            "stubs/load_stubs.php"
+        ]
+    }
+}
